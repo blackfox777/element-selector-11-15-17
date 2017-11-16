@@ -24,13 +24,13 @@ document.getElementById("second-header").textContent = "Something";
 
 var awesomes = document.getElementsByClassName('awesome');
 
-for var x = 0; x < awesomes.length; x++ {
-  awesomes{x}. textContent = x + 1;
+for( var x = 0; x < awesomes.length; x++) {
+  awesomes[x]. textContent = x + 1;
 }
 
 var h3s = document.getElementsByTagName("h3");
 
-for var x = 0; x < h3s.length; x++){
-  h3s{x}. textContent = "Kurt is Cruel";
+for (var x = 0; x < h3s.length; x++){
+  h3s[x]. textContent = "Kurt is Cruel";
 }
 // console.log(awesomes);
